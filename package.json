@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/cleanroom-ai/cleanroom-core"
   },
+  "engines": {
+    "node": ">=26"
+  },
   "exports": {
     "./src/*": "./src/*",
     "./scripts/*": "./scripts/*",

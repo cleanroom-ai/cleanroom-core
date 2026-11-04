@@ -24,6 +24,8 @@ before you share it*, 100% on your device.
 Everything runs on ONNX Runtime Web (WebAssembly) in a Web Worker. Model sources, checksums and
 licenses: [`models/README.md`](models/README.md).
 
+Requires Node.js 26 LTS or newer (see `.nvmrc`).
+
 ```bash
 npm install
 npm test        # 75 tests: rules + full pipeline on the real bundled models (Node)
